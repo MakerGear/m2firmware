@@ -1,0 +1,2 @@
+AQB3f - 
+	disabling z endstop min pin to stop bug where Z homing would not bump/retract

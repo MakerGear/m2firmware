@@ -1,6 +1,14 @@
 /* -*- c++ -*- */
 /*
 
+
+7/25/2018
+
+
+  Disabling Z min endstop pin to remove bug where Z would not retract when first homing. 
+
+
+
 5/24/2018
 
 
