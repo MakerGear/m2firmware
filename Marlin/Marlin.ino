@@ -1,6 +1,17 @@
 /* -*- c++ -*- */
 /*
 
+5/24/2018
+
+
+  Changing motor directions to match new wiring and extrduer orientation. 
+  Changing endstops to normally closed
+For use with Arduino IDE version 1.5.5 .
+
+
+
+
+
 2/18/2016
 
 Firmware for M2 hardware revision E - Z Max endstop, four corner leveling.

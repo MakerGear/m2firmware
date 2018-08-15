@@ -1,0 +1,3 @@
+nr1E2 - 
+	Changing motor directions to match new wiring and extrduer orientation. 
+	Changing endstops to normally closed
