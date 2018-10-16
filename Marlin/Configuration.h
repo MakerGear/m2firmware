@@ -28,7 +28,7 @@
 //#define STRING_VERSION "1.0.2"
 
 #define STRING_VERSION_CONFIG_H __DATE__ " " __TIME__ // build date and time
-#define STRING_CONFIG_H_AUTHOR "(MG|Josh,Kyle M2F - (AQB3f) v100 07/25/2018)" // Who made the changes. 
+#define STRING_CONFIG_H_AUTHOR "(MG|Josh,Kyle M2G - (IZIYq) v100 10/13/2018)" // Who made the changes. 
 
 // SERIAL_PORT selects which serial port should be used for communication with the host.
 // This allows the connection of wireless adapters (for instance) to non-default port pins.
@@ -48,7 +48,7 @@
 #endif
 
 // Define this to set a custom name for your generic Mendel,
- #define CUSTOM_MENDEL_NAME "M2F"
+ #define CUSTOM_MENDEL_NAME "M2G"
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
@@ -338,7 +338,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 #define max_software_endstops false  // If true, axis won't move to coordinates greater than the defined lengths below.
 
 // Travel limits after homing
-#define X_MAX_POS 205
+#define X_MAX_POS 220
 #define X_MIN_POS -4
 #define Y_MAX_POS 255
 #define Y_MIN_POS 0
@@ -483,7 +483,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {88.88,88.88,1007.7,471.5}  // default steps per unit for Ultimaker //v000 9/24/2015
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.1,80.1,1007.7,471.5}  // default steps per unit for Ultimaker //v000 9/24/2015
 #define DEFAULT_MAX_FEEDRATE          {200, 200, 25, 25}    // (mm/sec) //changed as per Scott's request - 1/12/2016 Josh
 #define DEFAULT_MAX_ACCELERATION      {900,1000,30,2000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot. -- Changed these from (9000,9000,100,10000) to (900,1000,30,2000) as per Scott's requests - 1/12/2016 Josh
 
