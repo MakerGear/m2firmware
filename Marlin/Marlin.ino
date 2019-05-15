@@ -2,6 +2,11 @@
 /*
 
 
+5/15/2019
+  Firmware update for M2 HArdware Revision H
+      Small adjustment to Y axe offset
+
+
 7/25/2018
 
 
